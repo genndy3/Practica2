@@ -1,0 +1,25 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 feb. 2024, 21:33:50
+    Author     : Genn
+*/
+
+.body {
+    margin: 60%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 60%;
+    padding: 90px 20px 0;
+}
+
+.aside {
+    position: fixed;
+    top: 10%;
+    left: 0;
+    width: 20%;
+    height: 75%;
+    background-color: aqua;
+}
