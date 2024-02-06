@@ -1,25 +1,53 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
+
 /* 
     Created on : 3 feb. 2024, 21:33:50
     Author     : Genn
 */
 
-.body {
-    margin: 60%;
+body {
+    margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    width: 60%;
-    padding: 90px 20px 0;
+
 }
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #3E5E1D;
+    text-align: center;
+}
+
+.header nav a {
+    color: white;
+}
+
+.figure{
+    display: block;
+    margin-left: 15%;
+    margin-right: 25%;
+} 
 
 .aside {
     position: fixed;
     top: 10%;
     left: 0;
-    width: 20%;
-    height: 75%;
-    background-color: aqua;
+    width: 10%;
+    height: 90%;
+    background-color: #E0E0E0;
+}
+
+.aside nav a {
+    color: black;
+}
+.section {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 90%;
+    height: 90%;
+    background-color: #BFE5A5;
+    overflow-y: scroll;
 }
