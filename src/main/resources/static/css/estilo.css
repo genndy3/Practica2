@@ -51,3 +51,29 @@ body {
     background-color: #BFE5A5;
     overflow-y: scroll;
 }
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    border-style: outset;
+    border-width: 5px;
+    background-color: #FFFFFF;
+    border-spacing: 5px;
+}
+
+.section article h2 {
+    text-align: center;
+}
+
+.image-text-container {
+    overflow: auto; 
+}
+
+.image-text-container img {
+    float: left; 
+    margin-right: 10px;
+    top: 15%;
+}
